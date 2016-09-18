@@ -6,7 +6,7 @@
     <packaging>war</packaging>
     <version>1.0</version>
     <name>InsultApp</name>
-  
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -50,4 +50,12 @@
     </profile>
   </profiles>
 	<artifactId>InsultApp</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
